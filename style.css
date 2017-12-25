@@ -1,0 +1,144 @@
+
+@charset "utf-8";
+*{
+  margin:0px;
+  padding:0px;
+  text-decoration:none;
+  box-sizing:border-box;
+  font-size:.14rem;
+  font-style:normal;
+  font-weight:normal;
+}
+ul,li{
+  list-style:none;
+}
+html{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    user-select: none;
+    font-size:625%;
+}
+img,div,body,html,ul,li,a{
+ -webkit-touch-callout: none;
+ }
+ input,button{
+ outline:0;
+
+ }
+/*  input,textarea,button{
+ -webkit-appearance: none;
+ -moz-appearance: none ;
+ appearance: none ;
+} */
+ button{
+ cursor:pointer;
+ }
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder {
+    color:#ccc;
+}
+html,body,.wrap{
+    width:100%;
+    height:100%;
+}
+.wrap{
+    display: flex;
+    flex-direction:column;
+}
+header{
+    width:100%;
+    height:.45rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items: center;
+    padding:0 .1rem;
+}
+header a{
+    display: flex;
+    flex-wrap:wrap;
+    color:#908E9C;
+}
+header a img{
+    width:.25rem;
+    height:.25rem;
+}
+header a span{
+    padding-left:.1rem;
+    line-height:.45rem;
+}
+.main,.box,.box1{
+    flex:1;
+    overflow-y:scroll;
+}
+.banner{
+    width:100%;
+    height:1.5rem;
+    overflow:hidden;
+}
+.banner img{
+    width:100%;
+    height:1.5rem;
+    display: block;
+}
+.box dl{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    border-bottom:1px solid #ccc;
+}
+.box dl dt{
+    width:30%;
+}
+.box dl dt img{
+    width:80%;
+    height:80%;
+    margin-top:10%;
+    margin-left:10%;
+}
+.box dl dd{
+    width:70%;
+    margin-top:5%;
+}
+.box dl dd h2{
+    font-size:.16rem;
+}
+.box dl dd p{
+    color:#999;
+}
+.box h1{
+    width:100%;
+    line-height:.4rem;
+    background:#F5F5F5;
+    padding-left:.1rem;
+}
+footer{
+    width:100%;
+    height:.45rem;
+    display: flex;
+    flex-wrap:wrap;
+}
+footer a{
+    flex-basis:33.3%;
+    color:#666;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+}
+footer a i{
+    padding:.05rem 0;
+}
+.info,.box1{
+    display:none;
+}
+.on{
+    border-bottom:5px solid #F1516B;
+}
+.box1 li{
+    line-height:.4rem;
+    border-bottom:1px solid #ccc;
+    padding-left:.1rem;
+}
+.bg{
+    background:#ccc;
+}
+/*# sourceMappingURL=style.css.map */
